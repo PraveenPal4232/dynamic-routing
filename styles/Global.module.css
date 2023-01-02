@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: calc(100vh - 105px);
 }
 
 .description {
@@ -275,4 +275,14 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.nav li{
+  list-style: none;
+  padding: 10px 20px;
 }

@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Global.module.css";
 import Header from "../component/header";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.main}>
-        <h1>Hompage Page</h1>
+        <h1>About Page</h1>
       </main>
     </>
   );
